@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Email Scraper</title>
+    <style>
+      #actionButton.enabled {
+        background-color: #4caf50;
+        color: white;
+        cursor: pointer;
+      }
+      #resultsTable {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      #resultsTable th,
+      #resultsTable td {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      #resultsTable th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Email Scraper</h2>
+    <div id="message"></div>
+    <button id="actionButton" disabled>Scrape Emails</button>
+    <button id="downloadCsvButton" disabled>Download CSV</button>
+    <button id="downloadJsonButton" disabled>Download JSON</button>
+    <input id="filenameInput" type="text" placeholder="Filename (optional)" />
+    <table id="resultsTable"></table>
+    <script src="popup.js"></script>
+  </body>
+</html>

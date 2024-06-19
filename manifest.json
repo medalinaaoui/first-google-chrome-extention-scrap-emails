@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Ramo Emails Scraper",
+  "version": "1.0",
+  "description": "Emails Scraper by Mohamed Ali Naaoui",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "ramo.png",
+    "48": "ramo.png",
+    "128": "ramo.png"
+  }
+}
